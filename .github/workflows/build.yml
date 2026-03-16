@@ -32,6 +32,8 @@ jobs:
 
       - name: Webpack build
         run: npm run webpack-build:extension
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
 
       - name: Get version
         id: version

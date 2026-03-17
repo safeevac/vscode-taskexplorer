@@ -1,5 +1,19 @@
 # VSCODE-TASKEXPLORER CHANGE LOG
 
+## Version 2.5.9 (March 17th, 2026)
+
+### Enhancements
+
+- change default `groupMaxLevel` from 1 to 5 so dash-separated task names (e.g. `data-redis-restore-safetyville`) are nested into subfolders automatically out of the box.
+
+## Version 2.5.8 (March 17th, 2026)
+
+### Build System
+
+- add GitHub Actions workflow to build VSIX artifacts and create releases on version tags.
+- fix OpenSSL legacy provider for webpack compatibility on Node 20.
+- remove stale SVG badges from README and add fork attribution.
+
 ## Version 2.5.7 (August 28th, 2021)
 
 ### Bug Fixes

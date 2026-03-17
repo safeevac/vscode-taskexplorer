@@ -1,6 +1,6 @@
 {
     "name": "vscode-taskexplorer",
-    "version": "2.5.8",
+    "version": "2.5.9",
     "displayName": "Task Explorer",
     "description": "Tasks management for npm, vscode, yarn, ant, gradle, grunt, gulp, batch, bash, make, maven, python, perl, powershell, ruby, and nsis",
     "icon": "res/gears-r-colors.png",
@@ -1649,7 +1649,7 @@
                         4,
                         5
                     ],
-                    "default": 1,
+                    "default": 5,
                     "description": "%config.taskExplorer.groupMaxLevel%"
                 },
                 "taskExplorer.clickAction": {
